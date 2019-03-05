@@ -28,7 +28,7 @@ sonarqube:
     SOURCE_CONTEXT_DIR: sonarqube
   postgresql:
     POSTGRESQL_DATABASE: sonar
-    VOLUME_CAPACITY: 5
+    VOLUME_CAPACITY: 5Gi
     POSTGRESQL_PASSWORD: sonar
     POSTGRESQL_USER: sonar
   deploy:
